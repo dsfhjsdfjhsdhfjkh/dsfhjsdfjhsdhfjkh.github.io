@@ -6,7 +6,7 @@ function updateIcon() {
     btn.textContent = song.paused ? "▶" : "❚❚";
 }
 
-// autoplay might start playing
+// autoplay might start playing idfk
 song.addEventListener("play", updateIcon);
 song.addEventListener("pause", updateIcon);
 
@@ -21,20 +21,18 @@ document.addEventListener("mousedown", () => {
     }
 });
 
-//js for pages
+//js for pages 
 async function showPage(page) {
     const response = await fetch(`${page}.html`);
     const html = await response.text();
 
     document.getElementById("content").innerHTML = html; }
 
-
-    
     async function showPage(page) {
     const response = await fetch(`${page}.html`);
     const html = await response.text();
     document.getElementById("content").innerHTML = html;
 }
 
-// Load home page automatically
+// start on home
 showPage("home");
