@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hiii</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js.js" defer></script>
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+<body>
+<!-- put it all in a box so its centered-->
+<div class="allbox">
+<!-- for the navigation !! -->
+ <div class="navbox">
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">home</a></li>
+                <li><a href="#" onclick="showPage('media')">media</a></li>
+                <li><a href="#" onclick="showPage('words')">words</a></li>
+                <li><a href="#" onclick="showPage('credits')">credits</a></li>
+            </ul>
+   <br /> <br /> <br /> <br />
+   
+<!-- music player -->
+<audio id="song" autoplay loop>
+    <source src="music/nana.mp4" type="audio/mpeg">
+</audio>
+
+<button class="play" id="playBtn">▶</button>
+
+<div class="playing">
+    <div class="track">
+        Now Playing: Yachin ga Hanbun!? - Tomoki Hasegawa ★
+    </div>
+</div>
+</div>
+<!-- end navigation -->
+
+
+
+<!-- stuff on main section  -->
+
+        <main id="content"></main>
+</div>
+</div>
+</body>
+</html>

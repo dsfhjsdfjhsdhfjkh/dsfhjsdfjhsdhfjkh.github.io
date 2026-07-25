@@ -1,0 +1,238 @@
+/* Angel Wing Heart - https://www.cursors-4u.com/cursor/angel-wing-heart */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/angel-wing-heart-800e0eca-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+@font-face {
+    font-family: 'Chicago';
+    src: url(fonts/ChicagoFLF.ttf) format('truetype');
+}
+* {
+    caret-color: transparent;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(247, 228, 239);
+    background-image: url("images/pattern1.gif");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+.h1 {
+    font-weight: normal;
+    font-family: 'Chicago', sans-serif;
+}
+
+
+.allbox {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    position: relative;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        border-style: dashed;
+        border-width: 2px;
+        border-color: rgb(94, 88, 91);
+    }
+
+.allbox::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-image: url("images/topborder.png");
+    background-repeat: repeat-x;
+    background-position: top;
+    z-index: 999;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    background-color: 	rgb(255, 244, 255);
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid rgb(235, 230, 233);
+    }
+
+
+.navbox ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+
+.navbox li {
+    background-image: url("images/heart.webp");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.navbox li a {
+    display: block;
+    padding: 20px 20px 20px 40px;
+    text-decoration: none;
+    color: rgb(94, 88, 91);
+    font-family: 'Chicago', sans-serif;
+    font-size: 14px;
+}
+
+.navbox li a:hover {
+    color: rgb(219, 104, 161);
+    text-decoration: dotted underline;
+}
+
+
+
+
+.mainbox {
+    width: 800px;
+    height: 100%;
+    background-color: rgb(255, 238, 248);
+    padding-top: 70px; 
+    box-sizing: border-box;
+    }
+
+
+.mainbox p {
+        font-family: 'Chicago', sans-serif;
+        color: rgb(172, 151, 162);
+        font-size: 14px;
+    }
+
+
+.mainbox .hi {
+        font-size: 30px;
+        font-family: 'Chicago', sans-serif;
+        color: rgb(206, 198, 202);
+        margin-bottom: 0px;
+    }
+
+
+.mainbox .main {
+    padding: 0px 10px;
+}
+
+.sparkle {
+    z-index: 999;
+    background-image: url("images/sparkle.webp");
+    background-repeat: repeat-x;
+    height: 40px;
+    background-size: auto 40px;
+    width: calc(100% - 100px);
+    margin: 20px 50px;
+    }
+
+
+.notebook-page {
+    background-image: url("images/d24751.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 600px;
+    overflow-y: auto;
+    padding: 70px 80px 60px 90px;
+    box-sizing: border-box;
+        text-align: left;
+}
+
+.notebook-page h1 {
+    font-family: 'Chicago', sans-serif;
+    color: rgb(224, 93, 159);
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.notebook-page p {
+    line-height: 33px;
+    font-size: 20px;
+    font-family: "Caveat", 'chicago', cursive;
+    color: rgb(131, 122, 126);
+    font-style: normal;
+}
+
+.date {
+    color: #7e6f73;
+    font-family: "Baloo 2", cursive;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.notebook-page::-webkit-scrollbar {
+    width: 12px;
+}
+
+.notebook-page::-webkit-scrollbar-thumb {
+    background: #fda8be;
+    border-radius: 10px;
+}
+
+.notebook-page::-webkit-scrollbar-track {
+    background: #fff0f7;
+}
+
+
+    
+.play {
+height: 30px;
+color: #fda8be;
+border:  1px solid #fda8be;
+background-color: rgb(255, 238, 248);
+position: absolute;
+left: 0;
+bottom: 0;
+}
+
+.playing {
+    width: 120px;
+    padding: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    left: 33px;
+    padding: 7px 10px;
+}
+
+.track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 8s linear infinite;
+    font-family: 'Chicago', sans-serif;
+    color: rgb(224, 93, 159);
+    font-size: 11px;   
+    font-style: italic;
+}
+
+/* duplicate content automatically */
+.track::after {
+    font-style: italic;
+    content: "Now Playing: Yachin ga Hanbun!? - Tomoki Hasegawa ★";
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
