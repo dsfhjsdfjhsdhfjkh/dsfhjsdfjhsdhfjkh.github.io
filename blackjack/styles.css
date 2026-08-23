@@ -82,7 +82,6 @@
     height: 337px;
     position: relative;
     margin: 5px auto 20px;
-    background: radial-gradient(farthest-corner,#fda8be, #fda8be, #e5bdcb, rgb(255, 238, 248), rgb(255, 238, 248), rgb(255, 238, 248));
     border-radius: 20%;
 }
 

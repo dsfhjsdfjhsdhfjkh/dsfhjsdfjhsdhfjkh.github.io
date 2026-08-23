@@ -47,7 +47,7 @@ async function showPage(page) {
             event.preventDefault();
 
             document.getElementById("content").innerHTML = `
-                <iframe src="blackjack/index.html"></iframe>
+                <iframe src="blackjack/index.html" scrolling="no"></iframe>
             `;
         });
 
