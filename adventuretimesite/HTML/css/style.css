@@ -425,3 +425,16 @@ background-image: url(https://live.staticflickr.com/2644/3839546575_a35b1a832c_h
   
 }
 
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: #bde7ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3399ff;
+    border-radius: 6px;
+    border: 2px solid #bde7ff;
+}
