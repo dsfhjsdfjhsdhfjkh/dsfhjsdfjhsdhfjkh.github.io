@@ -1,0 +1,427 @@
+/*body*/
+ html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto;
+    }
+ 
+    @media only screen and (max-width: 500px) {
+        body {
+          background-color: #fff;
+          overflow-x: hidden;
+          display: flex;
+          flex-direction: column;
+          ;
+
+        }
+      }
+
+    
+ 
+     
+      main {
+        background-image: url(https://i.cartoonnetwork.com/backgrounds/static/images/at/AT_BG6.jpg);  
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+      .mainbg  {
+        min-height: 100vh;
+        background-image: url(https://i.cartoonnetwork.com/backgrounds/static/images/at/AT_BG6.jpg);  
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+
+ /*header stuff*/   
+    h1 {
+        margin-top: 5;
+        
+    }
+
+    h1 img {
+      max-width: 100%;
+    }
+
+    h1 img:hover {
+      cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto;
+    }
+
+
+    header {
+      text-align: center;
+      top: 0;
+      max-width: 100%;
+      margin: auto;
+      background-position: center;
+      background-color: #fff;
+      
+  
+      }
+
+    
+
+
+      @media only screen and (max-width: 500px) {
+        header {
+          max-width: 100%;
+        }
+      }
+
+      main p {
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+.icons {
+ text-align: center
+}
+
+      .icons img {
+        height: 10%;
+        width: 10%;
+        display: inline-block;
+        justify-content: center;
+        padding-bottom: 20%;
+        
+      }
+
+   
+   
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #FFf;
+    overflow: hidden;
+
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: inline-block;
+    color: #48C2F9;
+    justify-content: center;
+    padding: 1% 4%;
+    text-decoration: none;
+    font-size: 1em;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #29298e;
+    cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto;
+  }
+ 
+
+
+
+  @media screen and (max-width:500px) {
+    footer * {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    }
+
+  footer {
+    text-align: center;
+    bottom: 0;
+    background-color: #fff;
+    font-size: small;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    display: block;
+    margin: 0;
+}
+
+
+
+
+ iframe {
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+    justify-content: center;
+
+
+}
+
+
+/* character page*/
+.finnpic {
+padding-left: 5%;
+float: left;
+}
+
+.finn h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-left: 6%;
+  padding-top: 2%;
+}
+
+.finn p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1em;
+  display: block;
+}
+
+.pbpic {
+ float: right;
+}
+
+.pb h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-left: 30%;
+  
+}
+
+.pb p {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin: auto 10px;
+}
+
+.ikpic { 
+  padding-left: 3%;
+  padding-right: 2%;
+ float: left;
+}
+
+
+.iceking h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding-left: 8%;
+}
+
+.iceking p {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.jakepic {
+    padding-right: 3%;
+    float: right;
+    width: 14%;
+    height: 15%;
+  
+  }
+
+  .jake h1 {
+    padding-right: 25%;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;
+    
+  }
+
+  .jake p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 2%;
+  
+  }
+
+
+  .mpic {
+    padding-left: 3%;
+    padding-right: 2%;
+    float: left;
+    width: 36%;
+    height: 36%;
+  }
+
+
+  .fpic {
+    float: right;
+    width: 20%;
+    height: 20%;
+    padding: 2% 2%;
+  }
+
+  .lpic {
+    width: 40%;
+    height: 40%;
+    float: left;
+  }
+
+
+  .lich h1 {
+    display: inline-block;
+    padding: 100px;
+  }
+
+
+  .lich p {
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+
+
+
+/*locations page*/
+
+
+.locationsbg {
+background-image: url(https://live.staticflickr.com/2644/3839546575_a35b1a832c_h.jpg);
+}
+
+
+
+
+.location img {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+  border-color: black;
+  border-style:double;
+  
+}
+
+.location p {
+  display: inline-block;
+  font-family: 'Josefin Sans', sans-serif;
+  vertical-align: 400%;
+  padding-left: 2%;
+}
+
+.location h1 {
+  text-align:center;
+  color: #329ecf;
+  font-family: 'Croissant One', serif;
+  padding-top: 5%;
+  
+}
+
+
+  .center {
+    background-color: #fff;
+    background-image: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100%;
+    padding: 0 1%;
+
+}
+
+
+
+.centertext {
+  text-align: center;
+}
+
+#bg {
+  background-color: #fff;
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/35a9cb99-7f96-4462-afa5-df6199437bbf/deavxpf-db268273-0f60-4ec0-a7ff-e0b16e2aff11.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM1YTljYjk5LTdmOTYtNDQ2Mi1hZmE1LWRmNjE5OTQzN2JiZlwvZGVhdnhwZi1kYjI2ODI3My0wZjYwLTRlYzAtYTdmZi1lMGIxNmUyYWZmMTEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EfYSdrQn9eXHfjrJ6XBZtjbZpkYSqbYE9ENDc-uPGp4);
+}
+
+
+
+/*games*/
+
+.games p {
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.games a {
+  text-decoration: none;
+  color:#1e084f;
+  font-size: larger;
+}
+
+
+.container {
+  height: 100%;
+}
+
+.sidenav{
+  overflow: auto;
+  position: absolute;
+  float: left;
+  height: 98vh;
+  width: 15%;
+  background-color: #e9d2e8;
+  border-color: #000;
+  border-style: double;
+
+}
+
+/* Style the links inside the navigation bar */
+.sidenav a {
+  display: block;
+  color: #329ecf;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0 2%;
+}
+
+.sidenav a:hover {
+  color: #1e0484;
+  cursor: url(https://ani.cursors-4u.net/toons/too-12/too1130.cur), auto;
+}
+
+.sidenav p {
+  text-align:center;
+  text-decoration: underline;
+}
+
+.explorepage {
+  float: right;
+  width: 85%;
+  height: 100vh;
+  background-color: rgb(233, 210, 232, 0.5);
+}
+
+.explorepage h1 {
+  color:#1e084f;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.explorepage img {
+  width: 33%;
+  height:auto;
+  padding-left: 30%;
+ 
+}
+
+
+
+.explorepage p {
+  padding-left: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+
+  
+  
+}
+
